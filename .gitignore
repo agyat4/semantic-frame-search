@@ -1,0 +1,51 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Downloaded videos and generated data
+data/videos/*
+data/frame_cache/*
+data/embedding_cache/*
+data/captions/*
+outputs/search_runs/*
+evaluation/results/*
+
+# Keep the directory placeholders
+!data/videos/.gitkeep
+!data/frame_cache/.gitkeep
+!data/embedding_cache/.gitkeep
+!data/captions/.gitkeep
+!outputs/search_runs/.gitkeep
+!evaluation/results/.gitkeep
+
+# Model and experiment files
+models/
+checkpoints/
+wandb/
+mlruns/
